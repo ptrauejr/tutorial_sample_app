@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68315e51-9215-422b-adb6-b2f94b561943" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" afterPath="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" afterPath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" afterPath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -26,7 +24,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sample_app@test__sample_app.coverage" NAME="test: sample_app Coverage Results" MODIFIED="1506294729102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@All_tests_in_test__sample_app.coverage" NAME="All tests in test: sample_app Coverage Results" MODIFIED="1505683798375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
-    <SUITE FILE_PATH="coverage/sample_app@Development__sample_app.coverage" NAME="Development: sample_app Coverage Results" MODIFIED="1509158828249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@Development__sample_app.coverage" NAME="Development: sample_app Coverage Results" MODIFIED="1509308944048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -71,11 +69,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_activation.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="account_activation.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_mailer_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/mailers/user_mailer_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_mailer_preview.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="98" lean-forward="false" selection-start-line="8" selection-start-column="98" selection-end-line="8" selection-end-column="98" />
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -84,8 +122,8 @@
       <file leaf-file-name="application_mailer.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,8 +132,8 @@
       <file leaf-file-name="user_mailer.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            <state relative-caret-position="105">
+              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -122,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
@@ -167,9 +204,13 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/test.rb" />
+        <option value="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" />
       </list>
     </option>
   </component>
@@ -347,6 +388,19 @@
               <item name="sample_app" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mailers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mailers" type="462c0819:PsiDirectoryNode" />
+              <item name="previews" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
@@ -533,7 +587,7 @@
       <workItem from="1505687066146" duration="16968000" />
       <workItem from="1506201910771" duration="31311000" />
       <workItem from="1507921133673" duration="6962000" />
-      <workItem from="1509158800685" duration="3351000" />
+      <workItem from="1509158800685" duration="4781000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize repository">
       <created>1505600625419</created>
@@ -599,7 +653,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63798000" />
+    <option name="totallyTimeSpent" value="65228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,34 +734,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/site_layout_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1020,22 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1052,10 +1062,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="98" lean-forward="false" selection-start-line="8" selection-start-column="98" selection-end-line="8" selection-end-column="98" />
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mailers/user_mailer_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
           <folding />
         </state>
       </provider>
