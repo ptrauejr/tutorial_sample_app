@@ -48,6 +48,6 @@ class User < ApplicationRecord
   # Creates and assigns the acgtivation token and digest.
   def create_activation_digest
     self.activation_token  = User.new_token
-    self.activation_digest = User.digest(activation_toekn)
+    self.activation_digest = User.digest(activation_token)
   end
 end
