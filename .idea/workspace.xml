@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68315e51-9215-422b-adb6-b2f94b561943" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/microposts.yml" afterPath="$PROJECT_DIR$/test/fixtures/microposts.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/micropost.rb" afterPath="$PROJECT_DIR$/app/models/micropost.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -34,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="micropost.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="micropost.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="30">
+              <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="microposts.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="microposts.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fixtures/microposts.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -132,10 +132,10 @@
         <option value="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
         <option value="$PROJECT_DIR$/test/integration/password_resets_test.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20171102234534_create_microposts.rb" />
-        <option value="$PROJECT_DIR$/app/models/micropost.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/test/models/micropost_test.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/microposts.yml" />
+        <option value="$PROJECT_DIR$/app/models/micropost.rb" />
       </list>
     </option>
   </component>
@@ -519,7 +519,7 @@
       <workItem from="1505687066146" duration="16968000" />
       <workItem from="1506201910771" duration="31311000" />
       <workItem from="1507921133673" duration="6962000" />
-      <workItem from="1509158800685" duration="17605000" />
+      <workItem from="1509158800685" duration="17733000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize repository">
       <created>1505600625419</created>
@@ -585,7 +585,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78052000" />
+    <option name="totallyTimeSpent" value="78180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1033,14 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1061,6 +1053,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
           <folding />
         </state>
       </provider>
